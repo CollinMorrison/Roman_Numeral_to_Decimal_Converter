@@ -1,0 +1,40 @@
+﻿-Convert Roman numerals to decimal then convert back to check accuracy
+
+
+Functions
+* Int RomanToDecimal(string arg)
+   * For (characters in string)
+      * Convert each character into its integer equivalent
+      * Check subtraction case
+      * Add values together
+
+
+* Int ConvertCharacterToInt(string arg)
+   * Return the correct int value for each character
+
+
+
+
+* String DecimalToRoman(int arg)
+   * While (arg > 0)
+      * Consider each possible case
+
+
+
+
+* Main
+   * Get roman numeral input from user
+   * Call romanToDecimal(user input)
+   * Call decimalToRoman(romanToDecimal(user input))
+
+
+
+
+Roman Numeral Values
+* I = 1
+* V = 5
+* X = 10
+* L = 50
+* C = 100
+* D = 500
+* M = 1000
